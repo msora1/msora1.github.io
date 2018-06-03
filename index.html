@@ -1,5 +1,24 @@
 
-<style>
+<style> 
+	.social-links {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 4px;
+}
+
+.social-links a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 	#main-image{
 		text-align:center;
 	}
@@ -7,10 +26,7 @@
 	.left{
 		background-color:green;
 		width: 500px;
-	}
-	.About me{
-		margin left: 50px;
-		background-color: red;
+
 	}
 		#right{
 			float:right;
@@ -26,37 +42,34 @@
 			
 		
 </style>
-
-	<body>
-	<div class="left">
-	<h1>Welcome To Morad's Webpage</h1>
-		<div id="About me">
-			<ul>
-				<li>hi</li>
-				<li>mrhba</li>
-				<li>ola</li>
-			</ul>
-		</div>
-		</div>
-		
-		<div id="right">
-			<div id="main-image"><img src="" width="160" height="180"></div>
-			<div class="descreption">
-			<h3>Links</h3>
-			<ul>
-				<li><a href="" >GitHub</a></li>
-				<li><a href="">CodeWars</a></li>
-				<li><a href="">FreeCodeCamp</a></li>
-			</ul>
-		</div>
-		</div>
+<body>
+  <div class="wrapper">
+    
+    <div class="left">
+      <img class="profile-picture" src="img/profile.jpg" width="200"/>
+      <h1 class="name">Ian Sikes</h1>
+      <h4 class="subtitle">CS Student</h4>
+    </div>
+    
+    <div class="right">
+      <p class="bio">
+        Computer Science student, web developer, blah blah blah.
+        Thanks for visiting my website.
+      </p>
+      <ul class="social-links">
+        <li><a href="https://github.com/ianjsikes">Github</a></li>
+        <li><a href="https://medium.com/@ianjsikes">Medium</a></li>
+      </ul>
+    </div>
+    
+  </div>
+</body>
 			
 	
 	
 	
 	
 	
-</body>
 	
 	
 	
